@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6adb6413.chunk.css",
+    "main.js": "/static/js/main.1a8df7ab.chunk.js",
+    "main.js.map": "/static/js/main.1a8df7ab.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.390458b1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.390458b1.js.map",
+    "static/js/2.f159289b.chunk.js": "/static/js/2.f159289b.chunk.js",
+    "static/js/2.f159289b.chunk.js.map": "/static/js/2.f159289b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6adb6413.chunk.css.map": "/static/css/main.6adb6413.chunk.css.map",
+    "static/js/2.f159289b.chunk.js.LICENSE.txt": "/static/js/2.f159289b.chunk.js.LICENSE.txt",
+    "static/media/delete-sign.6301e7d9.svg": "/static/media/delete-sign.6301e7d9.svg",
+    "static/media/facebook-5.2cd134e7.svg": "/static/media/facebook-5.2cd134e7.svg",
+    "static/media/home-thin.010f8879.svg": "/static/media/home-thin.010f8879.svg",
+    "static/media/instagram-9.053c0f67.svg": "/static/media/instagram-9.053c0f67.svg",
+    "static/media/log-out-7.9fbf96f0.svg": "/static/media/log-out-7.9fbf96f0.svg",
+    "static/media/loupe.28b6f036.svg": "/static/media/loupe.28b6f036.svg",
+    "static/media/menu-thin.e80aef55.svg": "/static/media/menu-thin.e80aef55.svg",
+    "static/media/snapchat-4.cadb37f1.svg": "/static/media/snapchat-4.cadb37f1.svg",
+    "static/media/superhero2.0efe91c1.svg": "/static/media/superhero2.0efe91c1.svg",
+    "static/media/telegram-4.5e9b82cb.svg": "/static/media/telegram-4.5e9b82cb.svg",
+    "static/media/twitter-4.9507a17a.svg": "/static/media/twitter-4.9507a17a.svg",
+    "static/media/whatsapp-4.50529774.svg": "/static/media/whatsapp-4.50529774.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.390458b1.js",
+    "static/js/2.f159289b.chunk.js",
+    "static/css/main.6adb6413.chunk.css",
+    "static/js/main.1a8df7ab.chunk.js"
+  ]
+}
