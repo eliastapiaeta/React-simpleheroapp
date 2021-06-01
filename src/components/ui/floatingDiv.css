@@ -1,0 +1,96 @@
+div.card {
+  border-right: unset;
+  border-bottom: unset;
+  border-top: unset;
+  border-left: unset;
+  /* position: absolute; */
+  margin-left: 0px;
+  margin-top: 7px;
+  border-radius: 1rem;
+  padding-left: 10px;
+  padding-top: 5px;
+  min-width: -webkit-fill-available;
+  width: -moz-available;
+
+  z-index: 99;
+}
+.nav-tabs .nav-link.active {
+  color: rgb(11, 94, 215);
+  background-color: rgb(255, 255, 255);
+  border-bottom-color: currentcolor;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  font-weight: bolder;
+}
+div.shadow {
+  box-shadow: 5px 10px 18px #08429870 !important;
+}
+div.card-header {
+  padding: unset;
+  background: unset;
+  border: unset;
+}
+#myTab {
+  border-bottom: unset;
+  margin-bottom: revert;
+  /* max-width: 20%; */
+}
+#myTabContent {
+  height: 37vh;
+  overflow: auto;
+  max-height: 45vh;
+}
+
+li.nav-item {
+  width: 20%;
+}
+
+button.MyButton {
+  width: 100%;
+  min-height: fit-content;
+  /* font-family: "Roboto", sans-serif; */
+  /* font-size: 11px; */
+  /* text-transform: uppercase; */
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background-color: rgb(3, 102, 250);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 0px 12px 0px rgb(3 102 250 / 92%);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+button.MyButton:hover {
+  background-color: rgba(3, 102, 250, 0.924);
+  box-shadow: 0px 15px 20px rgba(46, 229, 156, 0.151);
+  color: rgb(255, 255, 255);
+  transform: translateY(-7px);
+}
+
+div.divIMG {
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+div.MyCard-body {
+  text-align: justify;
+}
+div.my-div-cardText {
+  width: 100%;
+  margin: 0.5em 1px 0.3em;
+  overflow: hidden;
+  font: 400 12px "Segoe UI";
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.close {
+  background-color: aquamarine;
+  width: 31%;
+  align-self: center;
+  text-align: right;
+  padding-right: 10px;
+}

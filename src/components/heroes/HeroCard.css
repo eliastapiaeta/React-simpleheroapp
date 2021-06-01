@@ -1,0 +1,207 @@
+.my-card {
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.my-card img {
+  transition: all 0.15s linear;
+  position: relative;
+  filter: brightness(70%);
+}
+
+.my-card .profile-name {
+  position: absolute;
+  font-weight: bold;
+  color: #fff;
+  transition: all 0.15s linear;
+}
+
+.my-card .profile-position {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.596);
+  transition: all 0.15s linear;
+}
+
+.my-card .profile-overview {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4) 50%,
+    rgba(255, 255, 0, 0)
+  );
+  color: #fff;
+  transition: all 0.15s linear;
+}
+
+.my-card .profile-overview h3 {
+  font-weight: bold;
+}
+
+.my-card .profile-overview p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.my-card:hover .profile-name {
+  padding-left: 25px;
+}
+
+.my-card:hover .profile-position {
+  left: 40px;
+}
+
+.my-card:hover .profile-overview {
+  padding-bottom: 25px;
+}
+
+.my-card img:hover {
+  transform: scale(1.01);
+}
+
+main {
+  font-size: 16px;
+  font-family: "Comic Neue", cursive;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .my-card {
+    min-height: 20em;
+    max-height: 20em;
+    max-width: 14em;
+    min-width: 14em;
+  }
+  .my-card .img-responsive {
+    max-width: 19em;
+    top: -1em;
+    left: -25%;
+  }
+  .my-card .profile-name {
+    top: 0.1em;
+    left: 0.5em;
+    font-size: 1.3rem;
+    padding: 0.6em 0.4em;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(143, 143, 202);
+  }
+  .my-card .profile-position {
+    font-size: 0.9em;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(143, 143, 202);
+    left: 1em;
+    top: 2.7em;
+  }
+  .my-card .profile-overview {
+    padding: 3em 0px 0.7em 0px;
+  }
+  .my-card .profile-overview h3 {
+    font-size: 1rem;
+    padding-left: 1em;
+  }
+  .my-card .profile-overview p {
+    font-size: 0.8rem;
+    padding-left: 1.2em;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .my-card {
+    min-height: 19em;
+    max-height: 19em;
+    max-width: 13em;
+    min-width: 13em;
+  }
+  .my-card .img-responsive {
+    max-width: 19em;
+    top: -1em;
+    left: -25%;
+  }
+  .my-card .profile-name {
+    top: 0.1em;
+    left: 0.5em;
+    font-size: 1.3rem;
+    padding: 0.6em 0.4em;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(143, 143, 202);
+  }
+  .my-card .profile-position {
+    font-size: 0.9em;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(143, 143, 202);
+    left: 1em;
+    top: 2.7em;
+  }
+  .my-card .profile-overview {
+    padding: 4em 0px 0.7em 0px;
+  }
+  .my-card .profile-overview h3 {
+    font-size: 1rem;
+    padding-left: 1em;
+  }
+  .my-card .profile-overview p {
+    font-size: 0.8rem;
+    padding-left: 1.2em;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .my-card {
+    font-size: 1.1rem;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .my-card {
+    font-size: 0.75rem;
+    max-height: 24em;
+    max-width: 14em;
+    min-width: 13em;
+    margin: 0.2em auto;
+  }
+  .my-card .img-responsive {
+    max-width: 19em;
+    top: -6%;
+    left: -25%;
+  }
+  .my-card .profile-name {
+    top: 0.1em;
+    left: 0.5em;
+    font-size: 1.5em;
+    padding: 0.7em 0.1em;
+  }
+  .my-card .profile-position {
+    font-size: 0.8rem;
+    font-weight: unset;
+    left: 0.6em;
+    top: 2.8em;
+  }
+  .my-card .profile-overview {
+    padding: 4em 0px 0.03em 0px;
+  }
+  .my-card .profile-overview h3 {
+    font-size: 0.8rem;
+    padding-left: 0.7em;
+  }
+  .my-card .profile-overview p {
+    font-size: 0.8rem;
+    padding-left: 0.63em;
+    padding-right: 0.63em;
+  }
+
+  /* Small devices (landscape phones, 361px and up) */
+  @media (max-width: 361px) {
+    .my-card {
+      max-width: 13em;
+    }
+  }
+}

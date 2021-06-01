@@ -1,0 +1,48 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.mobile-wrap {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  /* background: url(https://raw.githubusercontent.com/khadkamhn/secret-project/master/img/background.jpg) */
+    /* center no-repeat; */
+  box-shadow: 0 12px 15px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%);
+}
+.mobile-wrap::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  /* background: rgba(90, 93, 165, 0.8); */
+  background: linear-gradient(
+    to bottom,
+    rgb(244, 244, 247),
+    rgba(111, 98, 189, 0.7)
+  );
+}
+
+.mobile {
+  z-index: 99;
+  color: rgb(0, 0, 0);
+  height: 100%;
+  /* padding: 15px; */
+  position: relative;
+}
+
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+  display: block;
+}

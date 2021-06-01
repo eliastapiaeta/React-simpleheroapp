@@ -1,0 +1,187 @@
+@media (max-width: 536px) {
+  .normal {
+    visibility: hidden;
+    display: none !important;
+  }
+  .sidebar {
+    visibility: visible;
+    /* background-color: white; */
+  }
+
+  .header {
+    clear: both;
+    overflow: hidden;
+    /* padding-top: 15px; */
+    padding: 15px;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  .header.pull-left.path {
+    fill: rgb(255, 255, 255) !important;
+  }
+  .header .pull-left {
+    /* float: left; */
+    font-size: 24px;
+    min-width: 24px;
+    max-width: 24px;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    /* background: #fff; */
+    position: relative;
+    display: inline-block;
+    background-color: inherit;
+    /* fill: rgb(255, 255, 255) !important; */
+  }
+  .header .pull-left::after,
+  .header .pull-left::before {
+    content: "";
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background: inherit;
+  }
+  .header .pull-left::before {
+    bottom: 12px;
+  }
+  .header .pull-left::after {
+    bottom: 6px;
+  }
+
+  .header > .title {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 15px;
+  }
+  .header .pull-right {
+    float: right;
+    z-index: 999;
+    position: relative;
+    font-size: 24px;
+    min-width: 24px;
+    max-width: 24px;
+    /* fill: rgb(255, 255, 255) !important; */
+  }
+
+  /* .header .search {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+} */
+
+  .header .search {
+    right: 1rem;
+    bottom: 0.8rem;
+    position: absolute;
+  }
+  .header .search input {
+    width: 0;
+    color: rgb(34, 4, 4);
+    height: 24px;
+    border: none;
+    font-size: 16px;
+    max-width: 150px;
+    font-weight: 300;
+    padding-right: 30px;
+    font-family: inherit;
+    background: transparent;
+    transition: all 0.3s ease-in-out 0s;
+    border-bottom: 1px solid transparent;
+    -webkit-appearance: textfield;
+  }
+  .header .search input:focus {
+    outline: none;
+  }
+  .header .search input::-webkit-search-decoration,
+  .header .search input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
+  .header .search .search-visible {
+    width: 100%;
+    border-bottom-color: #aaa;
+  }
+
+  .sidebar .sidebar-content,
+  .sidebar .sidebar-overlay {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .sidebar .sidebar-overlay {
+    right: 0;
+    opacity: 0;
+    width: 100%;
+    z-index: 999;
+    transform: scale(0);
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .sidebar .sidebar-content {
+    width: 80%;
+    color: #333;
+    padding: 15px;
+    z-index: 9999;
+    background: #fff;
+    transform: translateX(-100%);
+  }
+
+  .sidebar.active .sidebar-content {
+    transform: translateX(0);
+  }
+
+  .sidebar.active .sidebar-overlay {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .sidebar .sidebar-content .top-head .name {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+  .sidebar .sidebar-content .top-head .email {
+    font-size: 13px;
+    margin-bottom: 50px;
+  }
+
+  .sidebar .sidebar-content .nav-left > a {
+    color: #333;
+    display: block;
+    font-size: 16px;
+    padding: 10px 0;
+    line-height: 24px;
+    /* vertical-align: top; */
+    text-decoration: none;
+  }
+
+  .sidebar .sidebar-content .nav-left > a > span {
+    color: #aaa;
+    font-size: 24px;
+    min-width: 40px;
+    display: inline-block;
+  }
+
+  .ion-ios-list-outline {
+    max-width: 32px;
+    min-width: 32px;
+    margin-left: 0.5rem;
+    margin-right: 0.7rem;
+    max-height: 25px;
+  }
+}
+
+@media (min-width: 537px) {
+  .normal {
+    visibility: visible;
+    /* display: none !important; */
+  }
+  .header, .sidebar {
+    display: none;
+    content-visibility: hidden;
+    visibility: hidden;
+  }
+}

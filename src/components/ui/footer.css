@@ -1,0 +1,22 @@
+.iconSocialMedia {
+  filter: invert(100%) sepia(0%) saturate(2878%) hue-rotate(346deg)
+    brightness(104%) contrast(97%);
+}
+
+.iconSocialMedia:hover,
+.iconSocialMedia:focus {
+  filter: invert(0%) sepia(51%) saturate(2878%) hue-rotate(3deg)
+    brightness(104%) contrast(97%);
+}
+
+.a-IconSocialMedia:hover,
+.a-IconSocialMedia:focus {
+    background: brown;
+}   
+
+.abajo {
+  /* bottom: 0; */
+  /* position: absolute; */
+  height: fit-content;
+  min-height: min-content;
+}

@@ -1,0 +1,75 @@
+@media (max-width: 1380px) {
+  .icon-input {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px 0px 8px 35px;
+    transition: 0.3s;
+  }
+
+  .icon-input-container {
+    position: relative;
+  }
+
+  .icon-email {
+    width: 15px;
+    height: 15px;
+    /* background: url("email.svg") no-repeat; */
+    background-size: contain;
+  }
+
+  .icon-lock {
+    width: 15px;
+    height: 15px;
+    /* background: url("lock.svg") no-repeat; */
+    background-size: contain;
+  }
+
+  .icon-container {
+    position: absolute;
+    top: 8px;
+    padding: 10px 0px 0px 10px;
+    transition: 0.3s;
+    color: #373737;
+    border-right: 1px solid #e6e6e6;
+    width: 23px;
+    height: 23px;
+  }
+
+  /* .imgDelete {
+    position: absolute;
+    pointer-events: stroke;
+    left: 20rem;
+    z-index: 9999;
+    margin-top: 8px;
+    visibility: hidden;
+  } */
+  .imgDelete {
+    visibility: visible;
+    position: absolute;
+    right: 80px;
+    top: 9px;
+    z-index: 9;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 768px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  /* .imgDelete {
+    visibility: visible;
+    position: absolute;
+    right: 80px;
+    top: 9px;
+    z-index: 9;
+  } */
+}
+
+@media (max-width: 361px) {
+}
